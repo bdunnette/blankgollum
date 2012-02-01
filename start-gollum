@@ -1,5 +1,3 @@
 #!/bin/bash
 
-DIR="$( cd "$( dirname "$0" )" && pwd )"
-
-bundle exec gollum --page-file-dir "$DIR/pages"
+bundle exec gollum --page-file-dir "pages"
