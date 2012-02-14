@@ -28,5 +28,9 @@ The repo is already capified, so you can edit the ````config/deploy.rb```` to fi
 
 There is a ````config.ru```` file for Passenger to run. Just point the public directory for Apache to the ````public```` in this repo, and the Passenger module will do the rest to make this Gollum site go live.
 
+If you edit pages using Gollum's Web interface and wish to update the files using a text editor or push the changes, you'll need to update your local working copy:
+
+    $ ./update-copy
+
 [Gollum]: https://github.com/github/gollum
 [Sinatra]: http://www.sinatrarb.com/
