@@ -1,0 +1,3 @@
+#!/bin/bash
+
+bundle exec gollum --page-file-dir "pages"
